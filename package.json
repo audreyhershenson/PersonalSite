@@ -1,0 +1,38 @@
+{
+    "name": "personalsite",
+    "version": "1.0.0",
+    "description": "Audrey Hershenson's personal site",
+    "main": "index.js",
+    "scripts": {
+      "server": "nodemon index.js",
+      "start": "node index.js",
+      "start:dev": "react-scripts start"
+    },
+    "devDependencies": {
+      "nodemon": "^2.0.19"
+    },
+    "author": "Audrey Hershenson",
+    "license": "ISC",
+    "dependencies": {
+      "axios": "^0.27.2",
+      "jsonwebtoken": "^8.5.1",
+      "react": "^18.2.0",
+      "react-async": "^10.0.1",
+      "react-dom": "^18.2.0",
+      "react-router-dom": "^6.3.0",
+      "react-scripts": "^5.0.1"
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    }
+  }
+  

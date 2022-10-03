@@ -1,0 +1,18 @@
+header {
+    background-color: #000000;
+    text-align: center;  
+    padding: 5px;
+    margin: 5px;
+    width: 1200px;
+    margin: 0 auto;
+}
+a{
+    margin-right: 5px;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+a:hover {
+    transition: 0.3s;
+    color: #b72910;
+}
